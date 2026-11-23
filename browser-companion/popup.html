@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Spicy Lyrics Companion</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; width: 300px; padding: 18px; background: #21162b; color: #fbf0ff; font: 14px system-ui; }
+  h1 { font-size: 17px; margin: 0 0 14px; }
+  label, input { display: block; width: 100%; }
+  input { margin: 6px 0 12px; padding: 9px; background: #342540; color: inherit; border: 1px solid #65526f; border-radius: 7px; }
+  button { padding: 8px 12px; border: 0; border-radius: 7px; background: #dab1ff; color: #23152f; font: inherit; font-weight: 650; cursor: pointer; }
+  button + button { background: #3c2d4b; color: inherit; margin-left: 5px; }
+  output { display: block; color: #e4c9f5; margin-top: 10px; min-height: 18px; }
+</style>
+<h1>Spicy Lyrics Companion</h1>
+<label>Desktop pairing key<input type="password" id="key" autocomplete="off"></label>
+<button id="connect">Follow this tab</button><button id="disconnect">Disconnect</button>
+<output id="status" aria-live="polite"></output>
+<script src="popup.js"></script>
+</html>

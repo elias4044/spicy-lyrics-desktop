@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Spicy Lyrics Windows Companion",
+  "version": "0.1.0",
+  "description": "Send the current tab's music metadata and timeline to your local Spicy Lyrics app.",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["http://127.0.0.1:45687/*"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_popup": "popup.html" }
+}

@@ -1,0 +1,1 @@
+.\scripts\package-windows.ps1 -Version 0.1.0 -WixBin .\desktop\build\local-check\wix314 -OutputDirectory .\desktop\build\package-updated -SkipTests -Verbose
